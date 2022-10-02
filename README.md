@@ -1,3 +1,3 @@
 #MERN AMAZONA
 
-1. Fetch Products from backend
+1. Manage state by the reducer hooks
