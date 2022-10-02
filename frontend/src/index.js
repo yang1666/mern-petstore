@@ -4,6 +4,7 @@ import React from 'react';
 
 import { render } from 'react-dom'; // <- This is the correct import // statement for React version 17
 
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
 
 import App from './App';
