@@ -1,6 +1,7 @@
 const data = {
   products: [
     {
+      _id: '1',
       name: 'Bridge Dog Mini Dish',
       slug: 'bd-mini-dish',
       category: 'mini-dish',
@@ -13,6 +14,7 @@ const data = {
       description: 'high quality cat Mini Dish in violet',
     },
     {
+      _id: '2',
       name: 'Bridge Dog Mini Pan',
       slug: 'bd-mini-pan',
       category: 'mini-pan',
@@ -25,6 +27,7 @@ const data = {
       description: 'high quality cat Mini Pan in peach pink',
     },
     {
+      _id: '3',
       name: 'Bridge Dog Piggy Dish',
       slug: 'bd-piggy-dish',
       category: 'piggy-dish',
@@ -37,6 +40,7 @@ const data = {
       description: 'high quality pet Piggy Dish in lemon cream',
     },
     {
+      _id: '4',
       name: 'Bridge Dog Bear Dish',
       slug: 'bd-bear-dish',
       category: 'bear-dish',
