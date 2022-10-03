@@ -1,3 +1,3 @@
 #MERN AMAZONA
 
-1. add react bootstrap which can covert bootstrap css classes react component make it more easier for use it in react application
+Add bootstrap UI Framework 1. npm install react-bootstrap bootstrap 2. update App.js 11. Create Product and Rating Component 1. create Rating component 2. Create Product component 3. Use Rating component in Product component
