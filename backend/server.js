@@ -17,9 +17,6 @@ mongoose
   });
 
 const app = express();
-app.use('/api/seed', seedRouter);
-app.use('/api/products', productRouter);
-
 // test
 app.get('/api/products', (req, res) => {
   res.send(data.products);
@@ -40,6 +37,9 @@ app.get('/api/products/:id', (req, res) => {
     res.status(404).send({ message: 'Product Not Found' });
   }
 });
+
+app.use('/api/seed', seedRouter);
+app.use('/api/products', productRouter);
 
 const port = process.env.PORT || 5000;
 app.listen(port, () => {
